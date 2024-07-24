@@ -54,7 +54,7 @@ By leveraging the strengths of Go, Angular, and PostgreSQL, the GAP Stack offers
 
 ---
 
-Feel free to reach out if you have any questions or need further information!
+Feel free to reach out if you have any questions or need further information about any repo!
 
 <!--
 **Adi-111/Adi-111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
