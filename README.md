@@ -5,8 +5,8 @@
 
 I use various technologies, frameworks, and languages for different types of projects. However, my go-to stack for personal projects includes:
 
-- **Backend**: Go
-- **Frontend**: Angular
+- **Backend**: Go, Typescript
+- **Frontend**: React, Angular
 - **Database**: PostgreSQL
 
 This combination provides a powerful, efficient, and scalable solution for developing modern web applications.
