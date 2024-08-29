@@ -56,7 +56,7 @@ By leveraging the strengths of Go, Angular, and PostgreSQL, the GAP Stack offers
 
 Feel free to reach out if you have any questions or need further information about any repo!
 
-<!--
-**Adi-111/Adi-111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Learning Journey
+I'm currently diving into Spring Boot with Kotlin to expand my backend development skills. This journey is allowing me to explore the power and flexibility of Kotlin, combined with the robustness of Spring Boot, for building scalable and maintainable applications.
 
 
