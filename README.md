@@ -1,53 +1,61 @@
 <div align="center">
 
-# Hi, I'm Chandraditya 👋
+# Chandraditya Singh Jadaun
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=AI+Engineer;Agent+%2B+LLM+Systems+Builder;TypeScript+%2B+Python;Shipping+AI+to+production" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=AI+Engineer;I+build+agents+that+survive+production;LLM+systems%2C+not+LLM+demos;TypeScript+%C2%B7+Python+%C2%B7+NestJS" alt="Typing SVG" />
 
-AI/backend engineer building agent systems that have to survive production, not just demo well.
+**Applied AI engineer.** I build agent systems that run unattended, heal themselves, and cost close to nothing to keep running.
 
-</div>
-
-## 🚀 What I've been building
-
-- 🤖 **Self-healing LLM agents** — an agent (headless Chrome via CDP + Gemini) that writes its own scraping recipes once per site and re-heals itself when the site changes, instead of failing silently.
-- ⚡ **Cost-efficient inference** — replaced a per-call LLM sentiment pipeline with a quantized (INT8) RoBERTa model on ONNX Runtime for sub-500ms, zero-API-cost inference.
-- 🎬 **LLM-to-video pipelines** — schema-validated (Zod) generation from prompt → parametric SVG → rendered video, with an automatic repair loop on failure.
-- 💬 **Production support infra** — a WhatsApp-based support platform (NestJS/Prisma/Socket.io/pg-boss) handling thousands of messages a day.
-
-## 🛠️ Stack
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+<sub>New Delhi, India · Open to AI/agent engineering roles</sub>
 
 </div>
 
-**AI/ML:** LLM agent design · Gemini · ONNX Runtime · INT8 quantization · RoBERTa/transformers · OpenCV
-**Backend:** NestJS · Prisma · PostgreSQL · Socket.io · REST/WebSockets
-**Infra:** Docker · Chrome DevTools Protocol · Playwright · Linux · Git
+---
 
-## 📊 GitHub Stats
+### The problem I keep solving
+
+Most LLM systems work in a demo and quietly rot in production — a page changes, a prompt drifts, a bill triples, and nobody finds out for two weeks. I build the opposite: agents that **detect their own breakage**, **repair themselves**, and **spend tokens only where a model is genuinely needed**.
+
+---
+
+### 🧠 Selected work
+
+**🕸️ Self-healing scraping agent**
+An agent (headless Chrome via CDP + an LLM) that writes its own extraction recipe once per site, then replays it with **zero model calls**. When a site changes and the recipe stops matching, it treats the empty result as a **failure signal, not "no data"**, and re-authors itself automatically.
+`agents` · `CDP` · `self-healing` · `cost routing`
+
+**✅ Multi-agent to-do platform**
+Task management as **active execution**, not passive tracking. Tasks are dynamically decomposed, delegated, scheduled, and partially or fully executed by specialized autonomous agents.
+`multi-agent` · `orchestration` · `planning`
+
+**🎬 LLM-to-video pipeline**
+Prompt → parametric SVG → rendered video. Every stage is **schema-validated (Zod)** with an automatic repair loop, so a malformed model output gets fixed instead of crashing the render.
+`structured output` · `Remotion` · `self-repair`
+
+---
+
+### ⚙️ What I work with
+
+| | |
+|---|---|
+| **Languages** | `TypeScript` `Python` `JavaScript` `SQL` |
+| **AI / ML** | `LLM agent design` `Gemini` `tool use` `ONNX Runtime` `INT8 quantization` `transformers` `OpenCV` |
+| **Backend** | `NestJS` `Prisma` `PostgreSQL` `Socket.io` `REST` `WebSockets` |
+| **Infra** | `Docker` `Chrome DevTools Protocol` `Playwright` `Linux` `Git` |
+
+---
+
+### 🎯 Right now
+
+Finishing my degree while working full-time on agent infrastructure.
+
+**I'm looking for:** a small, high-ownership team building agent/LLM systems that ship to real users — where I own a system end to end rather than a slice of it.
+
+---
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Adi-111&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adi-111&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
-## 🎯 Currently
-
-Finishing my degree while working full-time on agent infrastructure. Interested in small, high-ownership teams building agent/LLM systems that ship to real users.
-
-## 🐍 Contribution Graph
-
-<div align="center">
+### 🐍 Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adi-111/Adi-111/output/github-snake-dark.svg" />
@@ -55,13 +63,13 @@ Finishing my degree while working full-time on agent infrastructure. Interested 
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Adi-111/Adi-111/output/github-snake.svg" />
 </picture>
 
-</div>
+---
 
-## 📫 Reach me
+### 📬 Let's talk
 
-<div align="center">
+If you're building agents, or you have an LLM system that works in a demo and breaks in production — I'd like to hear about it.
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandradityasingh11@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chandradityasingh)
+[![Email](https://img.shields.io/badge/Email-chandradityasingh11@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chandradityasingh11@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chandradityasingh)
 
 </div>
