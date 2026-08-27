@@ -1,62 +1,35 @@
-## Hi there 👋
+# Hi, I'm Chandraditya 👋
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=AI+Engineer;Agent+Builder;Rust+%2B+TypeScript+%2B+Python;Shipping+LLM+systems+to+production" alt="Typing SVG" />
 
-## Overview
+AI/backend engineer building agent systems that have to survive production, not just demo well.
 
-I use various technologies, frameworks, and languages for different types of projects. However, my go-to stack for personal projects includes:
+## What I've been building
 
-- **Backend**: Go, Typescript
-- **Frontend**: React, Angular
-- **Database**: PostgreSQL
+- 🤖 **Self-healing LLM agents** — a Rust agent (chromiumoxide/CDP + Gemini) that writes its own scraping recipes and re-heals itself when a site changes, instead of failing silently.
+- ⚡ **Cost-efficient inference** — replaced a per-call LLM sentiment pipeline with a quantized (INT8) RoBERTa model on ONNX Runtime, later ported to Rust for zero-cost, sub-500ms inference.
+- 🎬 **LLM-to-video pipelines** — schema-validated (Zod) generation from prompt → parametric SVG → rendered video, with an automatic repair loop on failure.
+- 💬 **Production support infra** — a WhatsApp-based support platform (NestJS/Prisma/Socket.io/pg-boss) handling thousands of messages a day.
 
-This combination provides a powerful, efficient, and scalable solution for developing modern web applications.
+## Stack
 
-## Technology Stack
+**Languages:** Rust · TypeScript · Python · JavaScript · SQL
+**AI/ML:** LLM agent design · Gemini · ONNX Runtime · INT8 quantization · RoBERTa/transformers · OpenCV
+**Backend:** NestJS · Axum · Prisma · PostgreSQL · Socket.io · REST/WebSockets
+**Infra:** Docker · Chrome DevTools Protocol · Playwright · Linux · Git
 
-### 1. Backend: Go (Golang)
+## Currently
 
-- **Server-Side Logic**: I use Go for developing the server-side of applications, handling business logic, and creating APIs.
-- **High Performance**: Known for its efficiency and performance, Go is ideal for building scalable and high-performance applications.
-- **Concurrency**: Go’s goroutines make it easy to handle multiple tasks simultaneously, enhancing the application's responsiveness.
+Finishing my degree while working full-time on agent infrastructure. Interested in small, high-ownership teams building agent/LLM systems that ship to real users.
 
-### 2. Frontend: Angular
+## Contribution Graph
 
-- **Client-Side Interactions**: I use Angular for building dynamic and responsive user interfaces.
-- **Component-Based Architecture**: It allows for modular development, making it easier to manage and scale large applications.
-- **Rich Ecosystem**: Angular provides a comprehensive suite of tools and libraries for efficient frontend development.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adi-111/Adi-111/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adi-111/Adi-111/output/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Adi-111/Adi-111/output/github-snake.svg" />
+</picture>
 
-### 3. Database: PostgreSQL
+## Reach me
 
-- **Relational Database**: PostgreSQL is a powerful, open-source relational database system.
-- **Advanced Features**: It offers features like ACID compliance, complex queries, and robust data integrity.
-- **Scalability**: PostgreSQL can handle large volumes of data and complex transactions, making it suitable for enterprise-level applications.
-
-## Deep Interests
-
-I have a deep interest in exploring and working with various emerging technologies:
-
-- **Cryptocurrency**: I'm fascinated by blockchain technology and its potential to revolutionize financial systems. I've worked on projects involving smart contracts and decentralized applications (DApps).
-- **Artificial Intelligence (AI)**: AI's ability to learn and adapt intrigues me. I've delved into machine learning models and AI-driven applications, exploring their capabilities and future possibilities.
-- **Embedded Systems**: I enjoy working with hardware and software integration. Embedded systems challenge me to optimize performance and functionality in constrained environments.
-
-## Hobbies
-
-- **Music**: Music is a significant part of my life. I enjoy both listening to and creating music, and I believe it enhances my creativity and problem-solving skills.
-- **Playing Games**: Gaming is my go-to hobby for relaxation and fun. It also inspires me to think about user experience and game development from a technical perspective.
-
-## Use Cases
-
-1. **Enterprise Applications**: Suitable for building complex, enterprise-level applications with high performance and scalability requirements.
-2. **Real-Time Applications**: Ideal for applications that require real-time data processing and interactions, leveraging Go’s concurrency and Angular’s responsiveness.
-3. **Data-Intensive Applications**: Perfect for applications that handle large volumes of data and require advanced querying capabilities provided by PostgreSQL.
-
-By leveraging the strengths of Go, Angular, and PostgreSQL, the GAP Stack offers a powerful and efficient framework for developing modern web applications.
-
----
-
-Feel free to reach out if you have any questions or need further information about any repo!
-
-Learning Journey
-I'm currently diving into Spring Boot with Kotlin to expand my backend development skills. This journey is allowing me to explore the power and flexibility of Kotlin, combined with the robustness of Spring Boot, for building scalable and maintainable applications.
-
-
+📫 chandradityasingh11@gmail.com · [LinkedIn](https://linkedin.com/in/chandradityasingh)
